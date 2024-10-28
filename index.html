@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Adivinhação</title>
+</head>
+<body>
+    
+<header>
+    <h1>Adivinhe o número</h1>
+</header>
+
+    <div class="centralizador">
+        <section id="container">
+            <h2>INSIRA UM NÚMERO (0-2)</h2>
+            <form action="/" id="formulario" method="post">
+                <label for="UserNum"></label>
+                <input min="0" max="2" type="number" id="UserNum">
+                <button id="btd">Enviar</button>
+                <button id="pontuacao">Pontuação</button>
+            </form>
+            <button id="limp">Limpar</button>
+            <div id="resultado"></div>
+            <div id="imprimirPontuacao"></div>
+        </section>
+    </div>
+    <footer>
+        <p id="pe">Feito por <a target="_blank" href="https://github.com/DiegoNoxe">Diego Nascimento</a></p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
